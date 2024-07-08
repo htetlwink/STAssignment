@@ -4,7 +4,7 @@ with st.container():
     st.header("This is Streamlit Assignment",divider=True)
     st.write("I'm Htet Lwin Kyaw and this is my streamlit assignment. I use this sentence using .text Function.")
     st.image("dog.jpeg",caption="Dog Running on Grass",width=450)
-    st.audio("LineCarSee.mp3", autoplay=True)
+    st.audio("LineCarSee.mp3")
     name = st.text_input("Your Name")
     selected = st.selectbox("Which Animal do you like ?", options=["Dog","Cat","Fish","Bird"])
     petno = st.slider(f"How many {selected} do you like to pet ?",min_value=0,max_value=10)
